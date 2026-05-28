@@ -1,0 +1,199 @@
+{
+  "urgency_candidate_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "urgency_sen1": {
+    "label": "medium",
+    "score": 0.4481232166290283,
+    "labels": [
+      "medium",
+      "high",
+      "low"
+    ],
+    "scores": [
+      0.4481232166290283,
+      0.4369579553604126,
+      0.1149187982082367
+    ]
+  },
+  "urgency_sen2": {
+    "label": "low",
+    "score": 0.4028421938419342,
+    "labels": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "scores": [
+      0.4028421938419342,
+      0.3271031677722931,
+      0.2700546681880951
+    ]
+  },
+  "urgency_sen3": {
+    "label": "low",
+    "score": 0.4732416868209839,
+    "labels": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "scores": [
+      0.4732416868209839,
+      0.26382842659950256,
+      0.2629299759864807
+    ]
+  },
+  "urgency_sen4": {
+    "label": "low",
+    "score": 0.3908563554286957,
+    "labels": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "scores": [
+      0.3908563554286957,
+      0.38929232954978943,
+      0.21985134482383728
+    ]
+  },
+  "sentiment_candidate_labels": [
+    "positive",
+    "neutral",
+    "negative"
+  ],
+  "sentiment_results": [
+    {
+      "label": "positive",
+      "score": 0.99933260679245,
+      "labels": [
+        "positive",
+        "neutral",
+        "negative"
+      ],
+      "scores": [
+        0.99933260679245,
+        0.0004238443507347256,
+        0.00024348510487470776
+      ]
+    },
+    {
+      "label": "neutral",
+      "score": 0.516714334487915,
+      "labels": [
+        "neutral",
+        "negative",
+        "positive"
+      ],
+      "scores": [
+        0.516714334487915,
+        0.31752780079841614,
+        0.16575784981250763
+      ]
+    },
+    {
+      "label": "negative",
+      "score": 0.5151069760322571,
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ],
+      "scores": [
+        0.5151069760322571,
+        0.294810026884079,
+        0.19008302688598633
+      ]
+    },
+    {
+      "label": "negative",
+      "score": 0.5394694209098816,
+      "labels": [
+        "negative",
+        "positive",
+        "neutral"
+      ],
+      "scores": [
+        0.5394694209098816,
+        0.3230869174003601,
+        0.1374436318874359
+      ]
+    }
+  ],
+  "topic_candidate_labels": [
+    "general praise",
+    "navigation sign discrepancy",
+    "speed limit data update",
+    "future feature question"
+  ],
+  "topic_results": [
+    {
+      "label": "general praise",
+      "score": 0.4880947470664978,
+      "labels": [
+        "general praise",
+        "navigation sign discrepancy",
+        "future feature question",
+        "speed limit data update"
+      ],
+      "scores": [
+        0.4880947470664978,
+        0.1813066601753235,
+        0.17164477705955505,
+        0.15895381569862366
+      ]
+    },
+    {
+      "label": "navigation sign discrepancy",
+      "score": 0.9894831776618958,
+      "labels": [
+        "navigation sign discrepancy",
+        "future feature question",
+        "general praise",
+        "speed limit data update"
+      ],
+      "scores": [
+        0.9894831776618958,
+        0.005330207757651806,
+        0.0028586857952177525,
+        0.002327946713194251
+      ]
+    },
+    {
+      "label": "speed limit data update",
+      "score": 0.774154007434845,
+      "labels": [
+        "speed limit data update",
+        "navigation sign discrepancy",
+        "future feature question",
+        "general praise"
+      ],
+      "scores": [
+        0.774154007434845,
+        0.1309995949268341,
+        0.08604390174150467,
+        0.008802521042525768
+      ]
+    },
+    {
+      "label": "future feature question",
+      "score": 0.9927421808242798,
+      "labels": [
+        "future feature question",
+        "navigation sign discrepancy",
+        "general praise",
+        "speed limit data update"
+      ],
+      "scores": [
+        0.9927421808242798,
+        0.004836727865040302,
+        0.0014357244363054633,
+        0.0009853832889348269
+      ]
+    }
+  ],
+  "choice_reasons": "Wybrałam zero-shot-classification dla pilności, sentymentu i tematu, ponieważ nie mamy oznaczonego zbioru treningowego dla tych konkretnych kategorii. Pipeline zero-shot pozwala podać własne etykiety kandydackie dla każdego zgłoszenia bez dodatkowego trenowania modelu. Text-classification wybrałabym wtedy, gdy dostępny byłby model już wytrenowany dokładnie na naszych etykietach lub gdy mielibyśmy dane do dostrojenia takiego modelu."
+}
