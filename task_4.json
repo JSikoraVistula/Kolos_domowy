@@ -1,0 +1,9 @@
+{
+  "month_num": 12,
+  "month_name": "December",
+  "rainy_days_num": 14,
+  "rainy_days_min": 0.3,
+  "rainy_days_max": 10.7,
+  "rainy_days_mean": 3.028571428571428,
+  "rainy_days_sum": 42.39999999999999
+}
