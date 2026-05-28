@@ -1,0 +1,30 @@
+{
+  "revenue_min": 660,
+  "revenue_mean": 1007.1428571428571,
+  "revenue_median": 920.0,
+  "revenue_max": 1540,
+  "revenue_sum": 7050,
+  "tot_revenue": [
+    3400,
+    1950,
+    1700
+  ],
+  "avg_units": [
+    11.0,
+    10.0,
+    7.5
+  ],
+  "transactions": [
+    3,
+    2,
+    2
+  ],
+  "filtered_val": [
+    [
+      "South",
+      1100,
+      11
+    ]
+  ],
+  "na_sum": 7
+}
